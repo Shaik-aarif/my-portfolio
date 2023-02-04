@@ -1,0 +1,53 @@
+/* importing fonts  from font.css*/
+
+@import url(./fonts.css);
+
+/* importing variables.css */
+@import url(./partials/_variables.css);
+
+
+
+/* Navbar start */
+
+.navbar-brand{
+    padding: 0rem 2rem;
+}
+
+.header-space .navbar{
+    padding: 1rem 10rem;
+}
+
+.header-space .navbar .nav-link{
+    font:normal 500 13px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: #000;
+}
+#navbarNav .nav-link.active{
+    color: red;
+    /* background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text ; */
+}
+#navbarNav .nav-link:hover{
+    color: red;
+    /* background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text ; */
+}
+
+
+/* Navbar end */
+
+
+/* main section start  */
+
+#main{
+    padding: 1rem 10rem;
+    font: var(--roboto);
+    
+}
+
+/* main section end  */
