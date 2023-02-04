@@ -5,6 +5,10 @@
 /* importing variables.css */
 @import url(./partials/_variables.css);
 
+/* importing global variables */
+
+@import url(./partials/_global.css);
+
 
 
 /* Navbar start */
@@ -46,8 +50,34 @@
 
 #main{
     padding: 1rem 10rem;
-    font: var(--roboto);
+    font-family: var(--roboto);
     
+}
+.banner-img img{
+    height:250px;
+    width: 250px;
+}
+.container .title h3{
+    font-size: 2rem;
+    padding-top: 25%;
+    font-weight: 500;
+}
+.container .title h1{
+    font-size: 3rem;
+    color: red;
+}
+.container .title span{
+    color: #000;    
+}
+.container .title h4{
+    font-size: 1.2rem;
+}
+.container .banner-img{
+    padding-top: 10%;
+    padding-left: 100px;
+}
+.primary-button{
+    margin-right: 30px;
 }
 
 /* main section end  */
