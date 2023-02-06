@@ -14,7 +14,9 @@
 /* Navbar start */
 
 .navbar-brand{
+
     padding: 0rem 32px;
+    color: #ff0000;
 }
 
 .header-space .navbar{
@@ -50,7 +52,7 @@
 /* main section start  */
 
 #main{
-    padding: 2% 10%;
+    padding: 1% 10%;
     font-family: var(--roboto);
     
 }
@@ -60,7 +62,7 @@
 }
 .container .title h3{
     font-size: 2rem;
-    padding-top: 25%;
+    padding-top: 20%;
     font-weight: 500;
 }
 .container .title h1{
@@ -74,7 +76,7 @@
     font-size: 1.1rem;
 }
 .container .banner-img{
-    padding-top: 10%;
+    padding-top: 7%;
     padding-left: 100px;
 }
 .primary-button{
